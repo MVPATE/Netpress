@@ -11,8 +11,7 @@ const getData1 = async () => {
             throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        console.log(data);
-
+        
 
 
         data.articles.forEach(article => {
@@ -48,8 +47,7 @@ const getData2 = async () => {
             throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        console.log(data);
-
+        
 
 
         data.articles.forEach(article => {
@@ -89,7 +87,7 @@ const getData3 = async () => {
             throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        console.log(data);
+        
 
 
 
@@ -125,7 +123,7 @@ const getData4 = async () => {
             throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        console.log(data);
+       
 
 
 
