@@ -42,7 +42,7 @@ getData1();
 const getData2 = async () => {
     const apiKey = 'cced939be9024e9596e7f003b6222962';
     try {
-        const response = await fetch(`https://newsapi.org/v2/top-headlines?category=entertainment&pageSize=8&apiKey=${apiKey}`);
+        const response = await fetch(`https://newsdata.io/api/1/latest?apikey=pub_9846519cc3fe41a6b385a641f9aa07bf&q=technology&country=in&language=en`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
